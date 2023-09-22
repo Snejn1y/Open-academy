@@ -1,0 +1,200 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* school
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-22 17:06+0000\n"
+"PO-Revision-Date: 2023-09-22 20:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__attendees
+msgid "Attendees"
+msgstr "Відвідувачі"
+
+#. module: school
+#: model:ir.model,name:school.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__course
+#: model_terms:ir.ui.view,arch_db:school.school_course_view_form
+msgid "Course"
+msgstr "Курс"
+
+#. module: school
+#: model:ir.actions.act_window,name:school.school_courses_action_window
+#: model:ir.ui.menu,name:school.courses_list
+msgid "Courses"
+msgstr "Курси"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__create_uid
+#: model:ir.model.fields,field_description:school.field_school_session__create_uid
+msgid "Created by"
+msgstr "Створено"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__create_date
+#: model:ir.model.fields,field_description:school.field_school_session__create_date
+msgid "Created on"
+msgstr "Створено о"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__description
+#: model:ir.model.fields,field_description:school.field_school_session__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__display_name
+#: model:ir.model.fields,field_description:school.field_school_session__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__duration
+msgid "Duration"
+msgstr "Тривалість"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.school_course_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__id
+#: model:ir.model.fields,field_description:school.field_school_session__id
+msgid "ID"
+msgstr "ID"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.school_course_view_form
+msgid "Information"
+msgstr "Інформація"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_res_partner__instructor
+#: model:ir.model.fields,field_description:school.field_res_users__instructor
+#: model:ir.model.fields,field_description:school.field_school_session__instructor
+msgid "Instructor"
+msgstr "Інструктор"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.res_partner_view
+msgid "Instuctor"
+msgstr "Інструктор"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course____last_update
+#: model:ir.model.fields,field_description:school.field_school_session____last_update
+msgid "Last Modified on"
+msgstr "Останнє оновлення"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__write_uid
+#: model:ir.model.fields,field_description:school.field_school_session__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__write_date
+#: model:ir.model.fields,field_description:school.field_school_session__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.school_sessions_view_calendar
+msgid "Lessons"
+msgstr "Пара"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.school_course_view_search
+msgid "My courses"
+msgstr "Мої курси"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__name
+#: model:ir.model.fields,field_description:school.field_school_session__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__number_of_seats
+msgid "Number Of Seats"
+msgstr "Кількість сидінь"
+
+#. module: school
+#: model:ir.ui.menu,name:school.menu_root
+msgid "Open Academy"
+msgstr ""
+
+#. module: school
+#: model:ir.model,name:school.model_school_course
+msgid "Open academy courses"
+msgstr "Open Academy курси"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__percent_seats
+msgid "Percent Seats"
+msgstr "Відсоток сидінь"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_course__responsible_user
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: school
+#: model_terms:ir.ui.view,arch_db:school.school_course_view_search
+msgid "Responsible user"
+msgstr "Відповідальний користувач"
+
+#. module: school
+#: model:ir.model,name:school.model_school_session
+#: model:ir.model.fields,field_description:school.field_res_partner__session
+#: model:ir.model.fields,field_description:school.field_res_users__session
+#: model:ir.model.fields,field_description:school.field_school_course__session
+#: model_terms:ir.ui.view,arch_db:school.school_sessions_view_form
+msgid "Session"
+msgstr "Сесія"
+
+#. module: school
+#: model:ir.model.constraint,message:school.constraint_school_course_name_diff
+msgid "Session name cant be same of it description"
+msgstr "Назва сесії не може бути така ж як і опис"
+
+#. module: school
+#: model:ir.ui.menu,name:school.session_list
+msgid "Sessions"
+msgstr "Сесії"
+
+#. module: school
+#: model:ir.actions.act_window,name:school.school_sessions_action_window
+msgid "Sessions list"
+msgstr "Список сесій"
+
+#. module: school
+#: model:ir.model.fields,field_description:school.field_school_session__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: school
+#: model:ir.model.constraint,message:school.constraint_school_course_name_uniq
+msgid "The session name must be unique"
+msgstr "Назва сесії повинна бути унікальна"

@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+
+        <record id="school_wizard_view_form" model="ir.ui.view">
+            <field name="name">Wizard</field>
+            <field name="model">school.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Wizard">
+                    <button name="add_attendees" string="Add attendees" type="object" class="btn-primary"/>
+                    <button name="cancel" class="btn-secondary" special="cancel"/>
+                    <sheet>
+                        <group>
+                            <field name="session"/>
+                            <field name="attendees"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="school_wizard_action" model="ir.actions.act_window">
+            <field name="name">Wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">school.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="binding_model_id" ref="model_school_wizard_ref"/>
+        </record>
+
+    </data>
+</odoo>

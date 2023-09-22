@@ -1,0 +1,61 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="courses_tree">
+      <field name="name">Courses</field>
+      <field name="model">school.course</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="school_course_view_form" model="ir.ui.view">
+        <field name="name">Course form</field>
+        <field name="model">school.course</field>
+        <field name="arch" type="xml">
+          <form string="Course">
+              <sheet>
+                  <notebook>
+                      <page name="page" string="Information">
+                          <group>
+                              <group>
+                                  <field name="name" />
+                                  <field name="responsible_user"/>
+                              </group>
+                              <group>
+                                  <field name="description" />
+                              </group>
+                              <field name="session"/>
+                          </group>
+                      </page>
+                  </notebook>
+              </sheet>
+          </form>
+      </field>
+    </record>
+
+    <record id="school_course_view_search" model="ir.ui.view">
+        <field name="name">course.view.search</field>
+        <field name="model">school.course</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="description"/>
+                <filter name="my_courses" string="My courses" domain="[('responsible_user', '=', uid)]"/>
+                <group string="Group By">
+                    <filter name="group_by_responsible_user" string="Responsible user" context="{'group_by': 'responsible_user'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="school_courses_action_window">
+      <field name="name">Courses</field>
+      <field name="res_model">school.course</field>
+      <field name="view_mode">tree,form</field>
+        <field name="context">{'search_default_my_courses' : 1}</field>
+    </record>
+  </data>
+</odoo>

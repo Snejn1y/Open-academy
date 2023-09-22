@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+
+        <menuitem name="Open Academy" id="school.menu_root"/>
+
+        <menuitem name="Courses" id="school.courses_list" parent="school.menu_root"
+              action="school_courses_action_window"/>
+
+        <menuitem name="Sessions" id="school.session_list" parent="school.menu_root"
+              action="school_sessions_action_window"/>
+
+    </data>
+</odoo>
